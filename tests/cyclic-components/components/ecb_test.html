@@ -1,0 +1,27 @@
+<script>
+  customElements.define(
+    {{ .Tag }},
+    class extends HTMLElement {
+      static get observedAttributes() {
+        return [];
+      }
+
+      constructor() {
+        super();
+        const template = document.getElementById({{ .UniqueID }});
+        this.attachShadow({ mode: 'open' });
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
+      }
+
+      connectedCallback() {}
+      attributeChangedCallback(attr, oldValue, newValue) {}
+    }
+  )
+</script>
+
+<template id="{{ .UniqueID }}">
+  <div>
+    Hello, world!!
+  </div>
+  <ecb-test3></ecb-test2>
+</template>
