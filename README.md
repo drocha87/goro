@@ -90,3 +90,15 @@ Keep in mind that support for the is attribute may vary across browsers, so it's
 
 - [ ] **Configurable Log Level**  
   Allow users to set the desired log level (e.g., info, warning, error) to reduce verbose output in the terminal during build processes. This will improve the user experience by limiting log noise during routine operations.
+
+- [ ] **Add Examples and Documentation**  
+  Create detailed examples and documentation to guide users on how to set up and use `goro` effectively. This should cover common use cases, configuration options, and how to structure projects.
+
+- [ ] **Add Tests**  
+  Develop unit and integration tests to cover common mistakes and edge cases in `goro`'s functionality. This will ensure stability and reliability as the project evolves.
+  
+## ⚠️ Project Status: Initial Phase
+
+**Note:** `goro` is currently in its initial development phase, and its primary purpose is to fulfill my personal needs. While contributions and feedback are welcome, please be aware that there is no guarantee that pull requests or suggestions will be merged or even considered.
+
+This project is evolving based on my own use cases and preferences, and its roadmap may not align with broader community needs or expectations.
