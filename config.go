@@ -15,4 +15,6 @@ const (
 	// by WEBCOMPONENT_PREFIX will be added to the list of dependencies.
 	// Worth noting that custom built-in elements has limited availability.
 	ALLOW_IS_TAG_COMPONENTS = false
+
+	VERBOSE = true
 )
